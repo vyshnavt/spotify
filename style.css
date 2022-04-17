@@ -1,0 +1,73 @@
+.bagroundimage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -5;
+    background:linear-gradient(to bottom, #d930af 0%, #cb2bb6 100%);
+    
+}
+
+@media screen and (max-width:330px){
+    
+    .imagewhyspotify{
+        width: 100%;
+        
+    }
+}    
+ul{
+    color: #fff;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 45px;
+}
+a:hover {
+    color: rgb(32, 153, 83);
+  }
+.phoneimage{
+    padding-left: 145px;
+}
+.textitsfree{
+  background:linear-gradient(180deg, rgba(rgb(176, 35, 194)),rgb(176, 35, 194));
+  text-align: center;
+  padding-top: 10rem;
+}
+
+@media screen and (min-width:768px){
+    .textitsfree{
+        height: 500px;
+        background:linear-gradient(to bottom,rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    }
+
+    
+}
+.imageletsplay{
+    position:absolute;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to bottom, #d930af 0%, #cb2bb6 100%) ;
+}
+.gotquestionbutton{
+    padding-top: 15px;
+      width: 85%;
+      text-align: start; 
+      height: 4rem; 
+      background-color: #fff; 
+      border: 2px solid #e7e7e7;
+   width: 100%;
+}
+
+@media screen and (min-width:500px){
+    .lastfooter{
+        padding-left: 3rem;
+    }
+    .lastfooterend{
+        padding-right: 3rem;
+    }
+    
+}
